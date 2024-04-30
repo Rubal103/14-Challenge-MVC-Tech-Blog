@@ -11,10 +11,10 @@ Git repository to create Tech Blog for professionals, students, tech enthusiasts
 
 ## Table of Contents
 
-- [Technologies](#Technologies used)
-- [Resources](# Resources)
+- [Technologies](#Technologies)
+- [Resources](#Resources)
 
-### Technologies used
+### Technologies
 *javaScript
 *CSS
 *Bootstrap
