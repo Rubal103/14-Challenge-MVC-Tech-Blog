@@ -1,14 +1,13 @@
 {
-  "name": "blog",
+  "name": "14-challenge-mvc-tech-blog",
   "version": "1.0.0",
-  "description": "",
+  "description": "Git repository to create Tech Blog for professionals, students, tech enthusiasts.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "seed": "node seeds/seed.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -18,9 +17,7 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
     "express-session": "^1.17.1",
-    "mysql2": "^2.2.5",
+    "mysql2": "^3.9.7",
     "sequelize": "^6.3.5"
-    
   }
-
 }
