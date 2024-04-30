@@ -15,10 +15,10 @@ Git repository to create Tech Blog for professionals, students, tech enthusiasts
 - [Resources](#Resources)
 
 ### Technologies
-*javaScript
-*CSS
-*Bootstrap
-*Nodejs
+* javaScript
+* CSS
+* Bootstrap
+* Nodejs
 
 ### Resources
 * 28_Mini-Project
