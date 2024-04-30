@@ -1,0 +1,113 @@
+body {
+  background-color: peachpuff;
+}
+  
+.navTitle {
+  font-weight: 200;
+  font-size: large;
+}
+
+.blogBox {
+  margin-top: 5px;
+  border-style: solid;
+}
+
+.blogTitle {
+  text-decoration: none;
+  color: blue;
+}
+
+.blogDesc {
+  border-style: solid;
+  margin-bottom: 5px;
+  padding: 2px;
+  background-color: peachpuff;
+}
+
+.blogDescMain {
+  font-weight: 700;
+}
+
+.blogDescTwo {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.blogCreate {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 12px;
+  padding: 5px;
+  color: black;
+}
+
+.blogBoxCont {
+	margin-top: 10px;
+  border-style: solid;
+  background-color: peachpuff;
+}
+
+.formCont {
+  margin-top: 10px;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.commentCont {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 75%;
+  background-color: lightcoral
+}
+
+.commentOwner {
+  font-size: 14px;
+}
+
+.btnComment {
+  margin-top: 10px;
+}
+
+.commentText {
+  font-weight: bold;
+  padding-top: 10px;
+  background-color: rgb(113, 143, 62);
+}
+
+.commentCont {
+  border-style: dashed;
+}
+
+.headerRow {
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+a:link {
+  color: peru;
+}
+a:visited {
+  color:grey;
+}
+
+a:hover {
+  color: paleturquoise;
+}
+
+.login{
+	margin-left: 25px;
+}
+
+.signup{
+	margin-left: 25px;
+}
+
+.form-group{
+	margin-top: 10px;
+}
+.homePageBlogs{
+  color: red;
+}

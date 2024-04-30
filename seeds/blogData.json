@@ -1,0 +1,28 @@
+[
+  {
+    "title": "javaScript-Data Types",
+    "description": "Data-types: Data Types are building blocks of any language: the types. JavaScript programs manipulate values, and those values all belong to a type."
+      
+  },
+  {
+    "title": "javaScript-Event Handling",
+    "description": "JavaScript allows you to handle the events used to interact with the web page.For example, you can detect the mouse click on a particular HTML element using JavaScript and interact with the HTML element."      
+  },
+
+  {
+    "title": "javaScript-DOM Manipulation",
+    "description": "JavaScript allows developers to manipulate the webpage elements. Also, you can control the browser. It contains the various methods to access the DOM elements using different attributes and allows to customize the HTML elements."
+      
+  },
+  {
+    "title": "javaScript-OOP",
+    "description": "JavaScript contains the classes, and we can implement all object-oriented programming concepts using its functionality. It also supports inheritance, abstraction, polymorphism, encapsulation, etc, concepts of Object-oriented programming."
+      
+  },
+  {
+    "title": "javaScript-JSON",
+    "description": "JSON stands for JavaScript object notation. It is a widely used data format to exchange data between two networks. For example, server and client. JavaScript also supports the JSON format to store the data."
+      
+  }
+  
+]
