@@ -1,12 +1,12 @@
 const loginFormHandler = async (event) => {
   event.preventDefault();
 
-  // Collect values from the login form
+  // take username and password values from the login 
   const username = document.querySelector('#username-login').value.trim();
   const password = document.querySelector('#password-login').value.trim();
 
   if (username && password) {
-    // Send a POST request to the API endpoint
+    // if theres is a username and password a POST request will be send to the API routes for the users
     const response = await fetch('/api/users/login', {
       method: 'POST',
       body: JSON.stringify({ username, password }),
@@ -14,7 +14,7 @@ const loginFormHandler = async (event) => {
     });
 
     if (response.ok) {
-      // If successful, redirect the browser to the profile page
+      // If login is successful, user will be taken to their dashboard
       document.location.replace('/dashboard');
     } else {
       alert(response.statusText);
@@ -22,13 +22,18 @@ const loginFormHandler = async (event) => {
   }
 };
 
+
+
 const signupFormHandler = async (event) => {
   event.preventDefault();
 
+
+  //get username and password from the signup form for new user
   const username = document.querySelector('#username-signup').value.trim();
-  // const email = document.querySelector('#email-signup').value.trim();
   const password = document.querySelector('#password-signup').value.trim();
 
+
+  //if there is a username and password, POST request will be send to the API route and user will be redirected to their dashboard. 
   if (username && password) {
     const response = await fetch('/api/users', {
       method: 'POST',

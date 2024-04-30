@@ -1,3 +1,5 @@
+{{!-- for showing user's blogs, it will have its title, their name, date created and description--}}
+
 <div class="text">
   <div class="container blogBoxCont">
     <div class="row headerRow">
@@ -13,6 +15,8 @@
   </div>
 </div>
 
+
+{{!-- to post comments when they are logged in  --}}
 {{#if logged_in}}
  <form class="new-comment-form formCont d-flex flex-wrap justify-content-center" data-blogid= {{id}}>
     <div class="textAreaCont p-2">

@@ -1,10 +1,16 @@
+//to handle creation of new blog
 const newFormHandler = async (event) => {
 
 event.preventDefault();
 
+//will get the new blog title provided by the user
 const title = document.querySelector('#blog-title').value.trim();
+
+//will get the description of the new blog created by the user
 const description = document.querySelector('#blog-desc').value.trim();
 
+
+//if there is a title an description, POST request will be sent to the API route and user will be taken to the dashboard where they can see the new blog. 
 if(title && description){
 
   const response = await fetch(`/api/blogs`, {
@@ -24,6 +30,8 @@ if(title && description){
 }
 };
 
+
+//to delete the their blog, when user is logged in 
 const delButtonHandler = async (event) =>{
   if(event.target.hasAttribute('data-id')){
     const id = event.target.getAttribute('data-id');

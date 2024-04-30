@@ -12,8 +12,6 @@ router.get('/', async (req, res) => {
     });
 });
 
-
-
 router.get('/:id', (req, res) => {
     Comment.findAll({
             where: {
