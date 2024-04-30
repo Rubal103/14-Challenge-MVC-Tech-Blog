@@ -33,6 +33,9 @@ Git repository to create Tech Blog for professionals, students, tech enthusiasts
 - ![user's Blog page](./Images/image-3.png)
 - ![Blog's comment](./Images/image-4.png)
 
+## link to the video 
+https://drive.google.com/file/d/1z5yhTrcBGeuMKDH18Q5_vJzxS7T9rXp8/view
+
 ## Author
 
 I am a student and learning Full Stack Development. 
